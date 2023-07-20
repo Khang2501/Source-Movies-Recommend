@@ -1,0 +1,47 @@
+.List-movies_container {
+  background-color: rgb(17, 17, 17);
+  padding-top: 40px;
+
+  h2 {
+    color: white;
+    font-size: larger;
+    margin: 0px 20px;
+  }
+}
+.ul {
+  margin: 0px;
+  padding-left: 15px;
+  max-height: 200px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  .items {
+    text-align: center;
+    display: inline-block;
+    min-width: 190px;
+    height: 180px;
+    line-height: 100px;
+  }
+
+  &::-webkit-scrollbar {
+    background-color: rgb(41, 41, 41);
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(17, 23, 26);
+  }
+}
+.img {
+  width: 90%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  transition: 0.75s;
+  &:hover {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    transition-timing-function: ease-out;
+  }
+}

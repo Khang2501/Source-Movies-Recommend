@@ -1,0 +1,27 @@
+.ul {
+  background-color: rgb(17, 17, 17);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 15px;
+
+  li {
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+  }
+
+  .img {
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    transition: 0.75s;
+
+    &:hover {
+      width: 100%;
+      height: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      transition-timing-function: ease-out;
+    }
+  }
+}

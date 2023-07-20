@@ -1,0 +1,37 @@
+.navbar {
+  position: fixed;
+  max-width: 1364px;
+  width: 100%;
+  top: 0px;
+  transition: 0.75s ease-out;
+}
+.background {
+  background-color: black;
+  transition: 0.75s ease-out;
+}
+.navbar_ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 20px;
+
+  li {
+    display: block;
+    width: 100px;
+    text-align: center;
+  }
+  .navbar_home {
+    text-decoration: none;
+    color: #f50606;
+    font-size: larger;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .navbar_search {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    font-size: larger;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
