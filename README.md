@@ -1,14 +1,7 @@
 #Readme:
-ADMIN - ECOMMERCE
-
+RECOMMEND MOVIES
 ###Goals and purposes:
-The web admin is a website that helps manage the ecommerce website:
-https://server-web-ecommerce.vercel.app/
-
-Functions of the web admin: add products, edit products, delete products, chat with clients.
-
-Product images are stored in Firebase Storages.
-
+The website that recommends the most watched movies pulled from The Movie Database API. Besides, there is an additional function of searching movies by keyword.
 ###Instructions for usage and installation:
 
     - Step 1:
@@ -20,8 +13,8 @@ Product images are stored in Firebase Storages.
 
 ###Technologies and packages used in the project:
 
-    - socket.io-client: a library that enables real-time, bidirectional and event-based communication between the     browser and the server.
-    -	Axios: is a Promise-based HTTP client library.
-    -	react-router-dom: is a standard routing library in React. It keeps the interface of the application in sync with the URL in the browser.
-    -	react-icons: is an icon library that allows you to add icons from various libraries into your React project as SVG elements.
-    -	react-cookie: Provides a way to read, update, and delete cookies.
+    - Axios: is a Promise-based HTTP client library.
+    - react-icons: is an icon library that allows you to add icons from various libraries into your React project as SVG elements.
+    - typescript: As a higher version of JavaScript, designed to build large and complex applications.
+    - sass: is CSS processing language. As a scenario language of CSS and is translated into a CSS syntax to help you write CSS faster and have a clearer structure.
+    - react-router-dom: is a standard routing library in React. It keeps the interface of the application in sync with the URL in the browser.
