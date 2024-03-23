@@ -1,12 +1,13 @@
 .search-form {
   background-color: rgba(17, 17, 17, 0.95);
   padding-top: 75px;
-
+  display: flex;
+  justify-content: center;
   .search-form_detail {
     background-color: white;
     border-radius: 3px;
-    margin: 0 auto;
-    width: 550px;
+    max-width: 550px;
+    width: 80%;
     height: 120px;
   }
 

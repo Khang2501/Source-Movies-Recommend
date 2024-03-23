@@ -15,7 +15,7 @@ $heightContainer: 330px;
   top: 100px;
   left: 15px;
   position: absolute;
-  width: 30%;
+  width: 50%;
 
   p {
     display: -webkit-box;
@@ -35,5 +35,13 @@ $heightContainer: 330px;
     color: white;
     font-weight: 700;
     margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner_content {
+    width: 100%;
+    p {
+      width: 80%;
+    }
   }
 }

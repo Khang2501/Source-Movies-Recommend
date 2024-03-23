@@ -53,7 +53,7 @@ export default function Original({ fetchAPI }: Props) {
   }, []);
 
   return (
-    <div>
+    <>
       {isLoading && (
         <ul className={classes.ul}>
           {moviesOriginals.map((movie) => (
@@ -67,6 +67,6 @@ export default function Original({ fetchAPI }: Props) {
           ))}
         </ul>
       )}
-    </div>
+    </>
   );
 }
